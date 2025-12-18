@@ -666,6 +666,20 @@
                                         </el-input>
                                     </el-form-item>
                                 </el-col>
+                                <el-col :span="8" :xs="24">
+                                    <el-form-item label="分组名称 (选填)">
+                                        <el-input v-model="course.group_name" placeholder="同组互斥，选上一个即止">
+                                            <template #prefix>
+                                                <el-icon>
+                                                    <ep-folder/>
+                                                </el-icon>
+                                            </template>
+                                        </el-input>
+                                        <div class="help-text">
+                                            设置相同的分组名称（如"体育课"），当组内任意一门课程选课成功后，程序将自动跳过该组其他课程，避免重复选课。
+                                        </div>
+                                    </el-form-item>
+                                </el-col>
                             </el-row>
 
                             <el-form-item label="选课模式">
@@ -877,6 +891,7 @@
                     course_name: '',
                     course_id: '',
                     teacher_name: '',
+                    group_name: '',
                     mode: 'search',
                     jx02id: '',
                     jx0404id: '',
@@ -973,6 +988,7 @@
                             course_name: c.course_name,
                             course_id: c.course_id,
                             teacher_name: c.teacher_name,
+                            group_name: c.group_name || "",
                             jx02id: "",
                             jx0404id: "",
                             week_day: "",
@@ -1054,6 +1070,7 @@
 
                                 form.courses.push(createCourse({
                                     ...c,
+                                    group_name: c.group_name || '',
                                     mode: mode
                                 }));
                             });
