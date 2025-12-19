@@ -14,9 +14,11 @@
 
 ## 脚本效果
 
-![1](/assets/images/Achievement/1.png)
-![2](/assets/images/Achievement/2.png)
-![3](/assets/images/Achievement/3.jpg)
+<div align="center">
+  <img src="/assets/images/Achievement/1.png" width="30%" />
+  <img src="/assets/images/Achievement/2.png" width="30%" />
+  <img src="/assets/images/Achievement/3.jpg" width="30%" />
+</div>
 
 ## 免责声明
 
