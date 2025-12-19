@@ -14,7 +14,7 @@
 
 ## 脚本效果
 
-一些效果图请参考 `[assets/images/Achievement](/assets/images/Achievement/)` 目录下的图片
+一些效果图请参考 [assets/images/Achievement](/assets/images/Achievement/) 目录下的图片
 
 ## 免责声明
 
