@@ -14,11 +14,7 @@
 
 ## 脚本效果
 
-<div align="center">
-  <img src="/assets/images/Achievement/1.png" width="30%" />
-  <img src="/assets/images/Achievement/2.png" width="30%" />
-  <img src="/assets/images/Achievement/3.jpg" width="30%" />
-</div>
+一些效果图请参考 `[assets/images/Achievement](/assets/images/Achievement/)` 目录下的图片
 
 ## 免责声明
 
