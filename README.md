@@ -12,6 +12,11 @@
 - 运行根目录下的ocr_server.py运行ocr服务器
 - 使用目录下的html文件生成选课配置
 
+## 脚本效果
+
+![1](/assets/images/Achievement/1.png)
+![2](/assets/images/Achievement/2.png)
+
 ## 免责声明
 
 本软件仅供学习和研究使用，请勿用于商业用途。使用本软件所产生的一切后果由使用者承担。
