@@ -1,4 +1,4 @@
-# QFNUCourseGrabberPy
+# QFNUCourseGrabber-One-Release
 
 > 曲阜师范大学 QFNU 抢课脚本 | 强智教务抢课脚本 | 强智教务 2017 | 大学抢课脚本 | 学院抢课脚本
 >
@@ -9,8 +9,11 @@
 本程序已使用编译程序编译发布，无需配置环境
 
 - 运行 main 目录下的 main.exe 文件
-- 运行根目录下的 ocr_server.py 运行 ocr 服务器
+- 运行根目录下的 ocr_server.py 运行 ocr 服务器（可选，若不开则需要手动输入验证码）
 - 使用目录下的 html 文件生成选课配置
+- 生成的config.json文件放置在和 main.exe 同目录下
+- 运行 main.exe 即可开始抢课
+- 作者给你的授权文件也需要放置在和 main.exe 同目录下
 
 ## 脚本效果
 
